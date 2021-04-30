@@ -1,23 +1,20 @@
-# FizzBuzz
+## Greeter
 
-### Step 1
-Write a program that returns array of numbers from 1 to 100, while multiples of three return "Fizz" instead of the number, multiples of five return "Buzz". Multiples of both three and five return "FizzBuzz".
+#### Before you start:
+* **Try not to read ahead.**
+* **Do one task at a time. The trick is to learn to work incrementally.**
 
-### Step 2
-Add a way to change range, instead of printing numbers from 1 to 100. Examples: numbers from 1 to 20, from 15 to 50.
+This kata demonstrates the problems of static scoped functions and objects.
 
-### Step 3
-Add rules for 7 and 11: 7 returns "Foo", 11 returns "Boo" and multiples of both return "FooBoo".
+All tests should always pass, regardless of environment conditions.
 
-### Step 4
-Add new rule for numbers smaller than 16 which return "Small" and a rule for numbers bigger than 95 which return "Big".
-
-### Step 5
-Add ability to change rules for initial requirement, instead of "Fizz" (multiples of 3) return "Buzz", and instead of "Buzz" (multiples of 5) return "Fizz"
-
-### Step 6
-Add new rule for "multiples of 3 and 5" return "FTW", and for "multiples of 3 or 5" return "GG"
-
+1. Write a `Greeter` class with `greet` function that receives a `name` as input and outputs `Hello <name>`. The signature of `greet` should not change throughout the kata. You are allowed to construct `Greeter` object as you please.
+2. `greet` trims the input
+3. `greet` capitalizes the first letter of the name
+4. `greet` returns `Good morning <name>` when the time is 06:00-12:00
+5. `greet` returns `Good evening <name>` when the time is 18:00-22:00
+6. `greet` returns `Good night <name>` when the time is 22:00-06:00
+7. `greet` logs into console each time it is called
 
 ## Rules and Usage
 1. Initialize this project with `npm` running `npm init`
